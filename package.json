@@ -1,0 +1,24 @@
+{
+  "name": "cote-demo",
+  "version": "0.0.1",
+  "description": "A small demo to show the ease of developing distributed applications with cote for the pfaffhack hackton held at the Fraunhofer IESE",
+  "main": "index.js",
+  "scripts": {
+    "start-frontend": "node \"frontend/server.js\"",
+    "start-color-responder": "node \"cote-responder/color-responder.js\"",
+    "start-weather-publisher": "node \"cote-publisher/weather-publisher.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cote",
+    "microservices",
+    "hackathon",
+    "iese"
+  ],
+  "author": "com.de.fraunhofer.iese.patrick-mennig",
+  "license": "MIT",
+  "dependencies": {
+    "cote": "^0.16.2",
+    "express": "^4.16.3"
+  }
+}
