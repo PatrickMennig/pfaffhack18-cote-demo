@@ -16,6 +16,6 @@ Visit the workshop for more detailed information.
 - git clone this project
 - open terminal and run `npm install`
 - open two more terminals
-  - in the first, run `npm start-frontend` and visit http://localhost:3000 in your browser
-  - in the second, run `npm start-color-responder`
-  - in the third, run `npm start-weather-publisher`
+  - in the first, run `npm run start-frontend` and visit http://localhost:3000 in your browser
+  - in the second, run `npm run start-color-responder`
+  - in the third, run `npm run start-weather-publisher`
